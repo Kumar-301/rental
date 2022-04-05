@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css">
+    <title>Rental Rides</title>
+</head>
+<body>
+ <header class="sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <div class="container">
+        <a class="navbar-brand text-white" href="#">
+            <img src="https://previews.123rf.com/images/llecosta/llecosta1505/llecosta150500108/39673042-letter-r-logo-design-with-arrow-symbol.jpg" alt=""  class="rounded-circle img1 border border-primary">
+            RENTAL RIDES
+          </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarExample">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample">
+            <ul class="navbar-nav ms-auto me-2">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="aboutus.html">About US</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+</nav>
+ </header>
+ <main class="main-container">
+   
+   
+  <div class="container mb-3 p-3 border border-dark rounded-3">
+    <div class="row">
+      
+  <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>PICKUP LOCATION</option>
+      <option value="VizAG">VizAG</option>
+      <option value="Hyderabad">Hyderabad</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Chandigarh">Chandigarh</option>
+    </select>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>PICKUP TIME</option>
+      <option value="8">08:00</option>
+      <option value="9">09:00</option>
+      <option value="10">10:00</option>
+      <option value="11">11:00</option>
+      <option value="12">12:00</option>
+      <option value="13">13:00</option>
+      <option value="14">14:00</option>
+      <option value="15">15:00</option>
+      <option value="16">16:00</option>
+    </select>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>DROP TIME</option>
+      <option value="8">08:00</option>
+      <option value="9">09:00</option>
+      <option value="10">10:00</option>
+      <option value="11">11:00</option>
+      <option value="12">12:00</option>
+      <option value="13">13:00</option>
+      <option value="14">14:00</option>
+      <option value="15">15:00</option>
+      <option value="16">16:00</option>
+    </select>
+  </div>
+  <div class="text-center">
+  <button type="button" class="btn btn-danger m-2 pl-3 pr-3 rounded-pill">Search</button>
+</div>
+</div>
+</div>
+
+ 
+  
+
+   <div class="container mb-3">
+     <h1 class="text-center">Popular Bikes</h1>
+   <div class="d-flex justify-content-center align-items-center">
+     
+    <div id="carouselExampleControls" class="carousel slide w-75 bg-white corosel-container border border-warning border-3 rounded-3" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+        
+          <div class="carousel-item active">
+            
+            <img src="imag/activa-4g.webp" class="d-block w-100 img2" alt="...">
+            <h3>Activa 4G</h3>
+            <button type="button" class="btn btn-danger p-2">Book Now</button>
+        </div>
+        
+        
+          <div class="carousel-item">
+            <img src="imag/jupiter.webp" class="d-block w-100 img2" alt="...">
+            <h3>TVS Jupiter</h3>
+            <button type="button" class="btn btn-danger p-2">Book Now</button>
+        </div>
+          <div class="carousel-item">
+            <img src="imag/honda-dio.jpg" class="d-block img2 w-100" alt="...">
+            <h3>Honda Dio</h3>
+            <button type="button" class="btn btn-danger p-2">Book Now</button>
+        </div>
+        <div class="carousel-item">
+          <img src="imag/ktm.webp" class="d-block img2 w-100" alt="...">
+          <h3>KTM 200</h3>
+          <button type="button" class="btn btn-danger p-2">Book Now</button>
+      </div>
+      <div class="carousel-item">
+        <img src="imag/r15.webp" class="d-block img2 w-100" alt="...">
+        <h3>R15</h3>
+        <button type="button" class="btn btn-danger p-2">Book Now</button>
+    </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-3">
+      <h1 class="text-center">Bikes</h1>
+      <div class="d-flex justify-content-between flex-wrap">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="imag/enfield.webp" alt="RY" class="img4">
+          <h2>Royal Enfield 350</h2>
+          <button type="button" class="btn btn-danger pl-3 pr-3 rounded-pill">Book Now</button>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="imag/avnger.webp" alt="RY" class="img4">
+          <h2>Bajaja Avenger 160</h2>
+          <button type="button" class="btn btn-danger pl-3 pr-3 rounded-pill">Book Now</button>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="imag/bajaj-pulsar.png" alt="RY" class="img4">
+          <h2>Bajaj Pulsar 150</h2>
+          <button type="button" class="btn btn-danger pl-3 pr-3 rounded-pill">Book Now</button>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="imag/facino.png" alt="RY" class="img4">
+          <h2>Facino 125</h2>
+          <button type="button" class="btn btn-danger pl-3 pr-3 rounded-pill">Book Now</button>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="imag/tvs-apache.png" alt="RY" class="img4">
+          <h2>Tvs Apache 310</h2>
+          <button type="button" class="btn btn-danger pl-3 pr-3 rounded-pill">Book Now</button>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="imag/ktm-sports.png" alt="RY" class="img4">
+          <h2>KTM Sports 500</h2>
+          <button type="button" class="btn btn-danger pl-3 pr-3 rounded-pill">Book Now</button>
+        </div>
+        </div>
+  </div>
+ </main>
+ <footer class="bg-secondary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <h3>Rental Riders</h3>
+                <a href="" class="links text-white">About us</a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <h3>Company</h3>
+              <ul class="list1 ">
+                <li><a href="#" class="text-light">FAQ'S</a></li>
+                <li><a href="#" class="text-light">Terms and Conditions</a></li>
+                <li><a href="#" class="text-light">Privacy Policy</a></li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <h3>Support</h3>
+            <div class="mb-3">
+                <p class="mb-0 text-white">Call Us @</p>
+                <a href="tel:916232666123" class="links text-white">916262666123</a>
+            </div>
+            <div class="mb-3">
+              <p class="mb-0 text-white">Email Us @</p>
+              <a href="mailto:help@vidc.in" class="links text-white">help@rentalriders.In</a>
+          </div>
+              <a href="#" class="links text-white">Chat with Us</a>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+          <h3>Locations</h3>
+          <p class="text-white">VizAG</p>
+          <p class="text-white">Hyderabad</p>
+          <p class="text-white">Delhi</p>
+          <p class="text-white">Mumbai</p>
+          <p class="text-white">Chandigarh</p>
+      </div>
+          
+
+        
+ </footer>
+
+
+
+    
+    <!-- <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
